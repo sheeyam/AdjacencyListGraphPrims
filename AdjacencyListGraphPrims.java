@@ -1,11 +1,7 @@
 /************************************************************************
 * Programmer: Sheeyam Shellvacumar
-* Course: CSCI 5432.2
 * Date: April 13, 2018
-* Assignment: Assignment #4 - Question 03
 * Environment: Eclipse Java IDE
-* Files Included: 
-* - AdjacencyListGraphPrims.java
 * Purpose: 
 * - Get No of Nodes and NodeLabels, No of Edges and it's labels with Source/Destination/Weights.
 * - Implement a graph using Adjacency List Technique
@@ -30,8 +26,8 @@
 * 2.  For each member of Q set the priority to INFINITY;
 * 3.  Only for the starting vertex (s) set the priority to 0;
 * 4.  The parent of (s) should be NULL;
-* 5.  While Q isn’t empty
-* 6.     Get the minimum from Q – let’s say (u); (priority queue);
+* 5.  While Q isnâ€™t empty
+* 6.     Get the minimum from Q â€“ letâ€™s say (u); (priority queue);
 * 7.     For each adjacent vertex to (v) to (u)
 * 8.        If (v) is in Q and weight of (u, v) < priority of (v) then
 * 9.           The parent of (v) is set to be (u)
